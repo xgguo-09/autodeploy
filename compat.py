@@ -16,7 +16,7 @@ __all__ = [
     'numeric_types',
     'integer_types',
     'input',
-    'b2s',
+    'bytes2str',
     'next'
 ]
 

@@ -5,7 +5,6 @@
 继承了 `session`
 """
 
-from __future__ import print_function
 import os
 from os.path import join
 
@@ -15,7 +14,6 @@ except ModuleNotFoundError:
     pass
 
 from session import Session
-
 
 __all__ = ['Client']
 
