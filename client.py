@@ -69,10 +69,10 @@ class Client(Session):
         dirpath, dirnames, filenames
 
         Example:
-            # >>> with Client('172.16.6.7', 'root', 'test') as c:
-            # >>>       for root, dirs, files in  c.walk('/root'):
-            # >>>            for f in files:
-            # >>>                print(join(root, f)
+            >>> with Client('172.16.6.7', 'root', 'test') as c:
+            >>>     for root, dirs, files in  c.walk('/root'):
+            >>>         for f in files:
+            >>>         print(join(root, f)
         """
         # top = self.verify_path(top)
 
