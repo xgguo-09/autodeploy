@@ -1,8 +1,7 @@
 # autodeploy
 
 ## usage
-.. code:: python
-       
+```python
     from client import Client
     
     filename = 'deploy.sh'
@@ -14,3 +13,4 @@
         r = c.execute('/usr/bin/sh {0}'.format(dst_file))
         print(r.stdout_text)
         print(r.stderr_text)
+```
